@@ -37,4 +37,14 @@ let camper = "James";
 let camper = "David";
 
 
+//Declare a Read-Only Variable with the const Keyword- which means that once a variable is assigned with const, it cannot be reassigned:
+
+const FAV_PET = "Cats";
+FAV_PET = "Dogs";
+//The console will display an error due to reassigning the value of FAV_PET.
+
+
+//Add Two Numbers with JavaScript
+let myVar = 5 + 10;
+console.log(myVar);//this will give ans as 15.
 

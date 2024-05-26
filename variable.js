@@ -48,3 +48,4 @@ FAV_PET = "Dogs";
 let myVar = 5 + 10;
 console.log(myVar);//this will give ans as 15.
 
+

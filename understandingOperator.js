@@ -34,6 +34,13 @@ console.log("Compound Assignment With Augmented Addition: ",myVar4);//6
 //Compound Assignment With Augmented Subtraction
 myVar4 -= 5;
 console.log("Compound Assignment With Augmented Subtraction: ",myVar4);
+//Compound Assignment With Augmented Multiplication
+myVar4 *= 5;
+console.log("Compound Assignment With Augmented Multiplication:",myVar4);
+//Compound Assignment With Augmented Division
+myVar4 /= 5;
+console.log("Compound Assignment With Augmented Division:",myVar4);
+
 
 
 

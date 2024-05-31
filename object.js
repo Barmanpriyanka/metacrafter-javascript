@@ -46,3 +46,22 @@ const myObj2 = {
   console.log("before changing name :",ourDog.name);
 ourDog.name="Happy Camper";  
 console.log("after changing name  :",ourDog.name);
+//Add New Properties to a JavaScript Object
+const ourDog1= {
+  "name": "Camper",
+  "legs": 4,
+  "tails": 1,
+  "friends": ["everything!"]
+};
+
+ourDog1.bark = "bow-wow";
+//Delete Properties from a JavaScript Object
+const ourDog = {
+  "name": "Camper",
+  "legs": 4,
+  "tails": 1,
+  "friends": ["everything!"],
+  "bark": "bow-wow"
+};
+
+delete ourDog.bark;
